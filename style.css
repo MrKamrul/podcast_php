@@ -1,0 +1,441 @@
+/* common styles */
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.front{
+    background-color: rgb(35, 35, 41);
+}
+.episodes-list{
+    background-color: rgb(31, 30, 30) ;
+}
+.episodes-list h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+/* navbar styles */
+nav{
+    background-color: rgb(35, 35, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-brand a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-btn{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 15px;
+    color: white;
+    padding: 3px 50px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.nav-item a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 15px;
+}
+/* main styles */
+.front{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.front-info{
+    color: white;
+    padding: 60px 70px;
+    width: 60%;
+}
+.front-info h1{
+    font-size: 60px;
+}
+.front-info p{
+    font-size: 30px;
+}
+.button-list button{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 0;
+}
+form{
+    background-color: rgb(31, 30, 30);
+    padding: 4px;
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    height: 55px;
+    position: relative;
+}
+form input{
+    background-color: rgb(31, 30, 30);
+    border: none;
+    font-size: 15px;
+    margin-left: 35px;
+    
+}
+form button{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 15px;
+    color: white;
+    padding: 13px 35px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+}
+.front-img{
+    margin-top: 40px;
+    padding: 40px 40px;
+    width: 30%;
+}
+/* icons styles */
+.ap{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: white;
+}
+.sp{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(43, 226, 67);
+    color: white;
+}
+.ov{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(226, 192, 43);
+    color: white;
+}
+/* icon styles end */
+
+/* second section styles */
+.episodes-list{
+    color: white;padding-top: 60px;
+    padding-left: 80px;
+}
+.episodes-list h4{
+    font-size: xx-large;
+}
+.episode{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+}
+.episode1{
+    background: url(media/episode/ep1.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode2{
+    background: url(media/episode/ep4.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode3{
+    background: url(media/episode/ep2.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode4{
+    background: url(media/episode/ep3.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode5{
+    background: url(media/episode/ep6.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode6{
+    background: url(media/episode/ep5.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    padding: 10px 20px;
+}
+.episode-info{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+.episode-info h3{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.episode-info p{
+    font-weight: 700;
+}
+.ep{
+    display: flex;
+    align-items: flex-end;
+}
+.ep p{
+    font-size: 15px;
+    margin-bottom: 11px;
+    margin-left: 5px;
+}
+.load-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-btn button{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 15px;
+    color: white;
+    padding: 10px 80px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+/* second section styles end  */
+
+/* footer styles */
+footer{
+    background-color: rgb(35, 35, 41);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    padding: 0;
+}
+.social-icon a{
+    font-size: 14px;
+    color: white;
+    margin-right: 3px;
+}
+.about{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.copyright p{
+    font-size: 14px;
+}
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-brand a{
+        margin-left: 0px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-item a{
+        margin-right: 40px;
+    }
+    .front{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .front-info{
+        width: 100%;
+        padding-top: 0;
+        padding-left: 40px;
+        order: 2;
+    }
+    .front-img{
+        order: 1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .front-img img{
+        width: 100%;
+        height: 400px;
+    }
+    .episodes-list{
+        padding-left: 10px;
+    }
+    .episode{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+    .episode1{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode2{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode3{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode4{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode5{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    .episode6{
+        background-size: 98%;
+        width: 100%;
+        height: 550px;
+    }
+    
+  }
+
+
+@media only screen and (max-width: 590px) {
+    /* For mobile phones: */
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-brand{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-brand a{
+        margin-left: 0px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-item a{
+        margin-right: 25px;
+    }
+    .front{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .front-info{
+        width: 100%;
+        padding: 10px 10px;
+        order: 2;
+    }
+    .front-img{
+        order: 1;
+    }
+    .front-img img{
+        height: 250px;
+    }
+    form{
+        width: 100%;
+    }
+    .episodes-list{
+        padding-left: 10px;
+    }
+    .episode{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+    .episode1{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode2{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode3{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode4{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode5{
+        background-size: 100%;
+        width: 95%;
+    }
+    .episode6{
+        background-size: 100%;
+        width: 95%;
+    }
+
+    
+  }
+  

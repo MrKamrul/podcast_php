@@ -1,0 +1,91 @@
+body{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+nav{
+    background-color: rgb(35, 35, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-brand a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.nav-brand a:active{
+    color: bisque;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-btn{
+    border: none;
+    background-color: rgb(32, 89, 245);
+    font-size: 15px;
+    color: white;
+    padding: 3px 10px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.nav-item a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.user{
+    font-size: 30px;
+}
+.hr{
+    border: 3px solid red;
+    width: 120px;
+}
+/* footer */
+footer{
+    background-color: rgb(35, 35, 41);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    padding: 0;
+}
+.social-icon a{
+    font-size: 14px;
+    color: white;
+    margin-right: 3px;
+}
+.about{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.copyright p{
+    font-size: 14px;
+}
